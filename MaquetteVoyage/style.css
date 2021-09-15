@@ -1,0 +1,97 @@
+/**************** CSS HEADER ********************/
+
+header {
+  background-image: url(img/pyramides.jpeg);
+  text-align: center;
+  color: white;
+  padding: 220px;
+  background-position: center;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0%;
+}
+
+a {
+  color: white;
+  font-family: "Work Sans";
+}
+
+.Slogan {
+  font-family: "Work Sans";
+}
+
+/************* CSS SECTION DESTINATIONS ************/
+
+body {
+  font-family: "Work Sans";
+  margin: 0%;
+}
+
+h1,
+h2 {
+  font-family: "amatic SC";
+}
+
+h2 {
+  text-align: center;
+}
+
+#destinations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#destinations img {
+  width: 30%;
+  margin-right: 50px;
+}
+
+#texteDestinations {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/***************** CSS FORMULES/TARIFS **************/
+
+.formule {
+  border: solid 1px darksalmon;
+  padding: 20px;
+  width: 25%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.formule p:nth-child(2) {
+  font-weight: bold;
+}
+
+.couleurPrix {
+  color: darksalmon;
+  font-size: 30px;
+}
+
+.formules {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+
+hr {
+  margin: 20px;
+}
+/******************** CSS FOOTER *******************/
+
+.notreConcept {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 30%;
+}
