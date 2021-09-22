@@ -1,0 +1,207 @@
+/************************************************
+***************** CSS GENERAL         
+************************************************/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/************************************************
+***************** CSS HEADER        
+************************************************/
+
+header {
+  background-image: linear-gradient(
+      to top right,
+      rgba(124, 40, 99, 0.466),
+      rgba(0, 0, 0, 0.274)
+    ),
+    url(img/fitness.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 200px;
+  background-attachment: fixed;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  margin: 0px 25px 25px;
+}
+
+header nav img {
+  height: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+header div h1 {
+  font-size: 80px;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 0%;
+  line-height: 100%;
+  padding-top: 100px;
+}
+
+.titres {
+  text-align: center;
+  font-size: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(124, 40, 99);
+  padding: 8px 12px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(124, 40, 99);
+}
+
+/************************************************
+***************** CSS MAIN        
+************************************************/
+
+/********* CSS PROGRAMMES ************/
+
+.programme {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)),
+    url(img/fitnessman.jpg);
+  width: 50%;
+  height: 300px;
+  background-position: center top;
+  background-size: cover;
+  display: inline-block;
+}
+
+.titreProgramme,
+.titreProgramme2 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Montserrat";
+}
+
+.programme2 {
+  background-image: linear-gradient(
+      rgba(124, 40, 99, 0.363),
+      rgba(124, 40, 99, 0.363)
+    ),
+    url(img/fitnesswoman.jpg);
+  width: 50%;
+  height: 300px;
+  background-position: center top;
+  background-size: cover;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  max-width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+}
+
+/********* CSS OBJECTIF ************/
+
+.objectifs {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/********* CSS LISTE1 ************/
+
+.liste1 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.liste1 ul li {
+  padding: 8px 12px;
+  border: 1px solid rgba(128, 128, 128, 0.123);
+  width: 25%;
+  text-align: center;
+  padding: 60px;
+}
+
+.liste1 ul li img {
+  height: 50px;
+}
+
+/********* CSS CROSSFIT ************/
+
+.crossfit {
+  background-image: linear-gradient(
+      to right,
+      rgb(124, 40, 99, 0.3) 55%,
+      rgb(0, 0, 0) 0%
+    ),
+    url(img/crossfit.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 150px;
+}
+
+.fitclubArticle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.crossfit ul {
+  width: 35%;
+}
+
+.fitclubArticle h2 {
+  margin-left: -50px;
+}
+
+/********* CSS DAMMIER ************/
+
+.dammier {
+}
+
+.dammier ul li img {
+  height: 50px;
+}
+
+.dammier ul li {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 100px;
+}
+
+.dammier ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dammier ul li:nth-child(odd) {
+  background-color: rgba(124, 40, 99, 0.24);
+}
+
+/********* CSS MAP ************/
+
+iframe {
+  width: 100%;
+}
+
+/********* CSS CONTACT ************/
+
+.contact {
+  text-align: center;
+  width: 25%;
+  background-color: grey;
+  padding: 50px;
+}
